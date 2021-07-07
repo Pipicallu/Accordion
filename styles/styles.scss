@@ -46,11 +46,8 @@ body{
     align-items: center;
     
     hr{
-        color: $borderColour;
-        margin: .5rem 0;
-        padding: 0;
-        border: 2px solid;
-        border-bottom: 0;
+        
+        
         
     }
     h4{
@@ -67,7 +64,13 @@ body{
         color: $subtitleColour;
     }
     p{
+        margin: 1rem 0;
+        padding: 0;
+        padding-top: 1rem;
+        border-top: 2px solid $borderColour;
+        border-bottom: 0;
         color: rgb(88, 87, 87);
+       
     }
 }
 

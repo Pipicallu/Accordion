@@ -33,13 +33,6 @@ body {
   padding: 0.5rem;
   align-items: center;
 }
-.accordion-item hr {
-  color: #c1c2c3;
-  margin: 0.5rem 0;
-  padding: 0;
-  border: 2px solid;
-  border-bottom: 0;
-}
 .accordion-item h4 {
   color: #0076dc;
   align-items: center;
@@ -53,5 +46,10 @@ body {
   color: #0076dc;
 }
 .accordion-item p {
+  margin: 1rem 0;
+  padding: 0;
+  padding-top: 1rem;
+  border-top: 2px solid #c1c2c3;
+  border-bottom: 0;
   color: #585757;
 }/*# sourceMappingURL=styles.css.map */
