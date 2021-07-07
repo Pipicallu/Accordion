@@ -1,20 +1,76 @@
+$primaryFont: sans-serif;
+$itemBg: white;
+$titleColour: #1d4f91;
+$subtitleColour: #0076dc;
+$borderColour: #c1c2c3;
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: $primaryFont;
+}
+
+body{
+    background: #f3f6fa;
 }
 
 @mixin flexToCenter($direction){
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: $direction;
+    justify-content: center;
+    
 }
 
 .FAQ-title{
-    @include flexToCenter();
+    @include flexToCenter(none);
+    color: $titleColour;
+    margin: 3rem;
+    
+    
 }
 
 .accordion-object{
     @include flexToCenter(column);
+    margin: 3rem;
+     
 }
+
+.accordion-item{
+    border: 2px solid $borderColour;
+    border-radius: 3px;
+    box-shadow: none;
+    margin-bottom: 0.5rem;
+    background: $itemBg;
+    padding: .5rem;
+    align-items: center;
+    
+    hr{
+        color: $borderColour;
+        margin: .5rem 0;
+        padding: 0;
+        border: 2px solid;
+        border-bottom: 0;
+        
+    }
+    h4{
+        color: $subtitleColour;
+        align-items: center;
+        
+    }
+    button{
+        border: none;
+        background: none;
+        cursor: pointer;
+        float: right;
+        font-size: 1.5rem;
+        color: $subtitleColour;
+    }
+    p{
+        color: rgb(88, 87, 87);
+    }
+}
+
+
+
+
