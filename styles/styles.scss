@@ -4,3 +4,17 @@
     box-sizing: border-box;
 }
 
+@mixin flexToCenter($direction){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+.FAQ-title{
+    @include flexToCenter();
+}
+
+.accordion-object{
+    @include flexToCenter(column);
+}
