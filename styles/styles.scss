@@ -74,10 +74,32 @@ body{
         border-top: 2px solid $borderColour;
         border-bottom: 0;
         color: rgb(88, 87, 87);
-       
+        transition: max-height 0.2s ease-in-out;
+
+        
     }
 }
 
+.accordion-content{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s ;
+}
+
+.opened-accordion{
+    span{
+        i{
+            &::before{
+                content: '\f068';
+            }
+           
+        }
+    }
+}
+
+.opened-accordion.opened-accordion + .accordion-content{
+    max-height: 150px;
+}
 
 
 
