@@ -92,14 +92,13 @@ body{
     }
 
     .FAQ-title{
-        align-items: left;
+        text-align: left;
     }
 }
 
 .accordion-content{
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.35s ease-out;
 }
 
 .opened-accordion{
@@ -113,9 +112,6 @@ body{
     }
 }
 
-.opened-accordion.opened-accordion + .accordion-content{
-    max-height: 300px;
-}
 
 
 
