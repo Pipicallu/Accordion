@@ -1,5 +1,5 @@
 $primaryFont: sans-serif;
-$phoneBreakPoint: 450px;
+$phoneBreakPoint: 480px;
 $itemBg: white;
 $titleColour: #1d4f91;
 $subtitleColour: #0076dc;
@@ -20,7 +20,7 @@ body{
     display: flex;
     flex-direction: $direction;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     
 }
 
@@ -89,6 +89,10 @@ body{
         border: 0;
         border-top: 2px solid $borderColour;
         
+    }
+
+    .FAQ-title{
+        align-items: left;
     }
 }
 

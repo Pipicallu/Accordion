@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-direction: none;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   color: #1d4f91;
   margin: 3rem;
 }
@@ -23,7 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   margin: 3rem;
 }
 
@@ -63,11 +63,15 @@ body {
   transition: max-height 0.2s;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
   .accordion-item {
     margin: 0;
     border: 0;
     border-top: 2px solid #c1c2c3;
+  }
+
+  .FAQ-title {
+    align-items: left;
   }
 }
 .accordion-content {
