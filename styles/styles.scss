@@ -1,8 +1,12 @@
-$primaryFont: sans-serif;
+$primaryFont: 'Heebo', sans-serif;
+$secondaryFont: 'Montserrat', sans-serif;
+$subtitleW: 600;
+$contentw: 400;
 $phoneBreakPoint: 480px;
 $itemBg: white;
 $titleColour: #1d4f91;
 $subtitleColour: #0076dc;
+$contentColour: #585757e6;
 $borderColour: #c1c2c3;
 
 *{
@@ -22,6 +26,14 @@ body{
     justify-content: center;
     align-items: left;
     
+}
+
+@mixin perfectMiddle{
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
 }
 
 .FAQ-title{
@@ -44,16 +56,18 @@ body{
     box-shadow: none;
     margin-bottom: 0.5rem;
     background: $itemBg;
-    padding: .5rem;
+    padding: 1rem;
     align-items: center;
      
     h3{
+        font-weight: $subtitleW;
         color: $subtitleColour;
         padding-right: .5rem;
         word-break: normal;
     }
 
     button{
+        
         width: 100%;
         text-align: left;
         border: none;
@@ -66,19 +80,18 @@ body{
         
         float: right;
         color: $subtitleColour;
-        
        
     }
 
     p{
-        margin: 1rem 0;
+        
+        margin-top: 1rem ;
         padding: 0;
         padding-top: 1rem;
         border-top: 2px solid $borderColour;
         border-bottom: 0;
-        color: rgb(88, 87, 87);
-        transition: max-height 0.2s ;
-
+        color: #585757e6;
+        font-weight: $contentw;
         
     }
 }
@@ -92,11 +105,12 @@ body{
     }
 
     .FAQ-title{
-        text-align: left;
+        justify-content: left;
     }
 }
 
 .accordion-content{
+    font-family: $secondaryFont;
     max-height: 0;
     overflow: hidden;
     transition: max-height .3s ease-in-out;

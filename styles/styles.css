@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Heebo", sans-serif;
 }
 
 body {
@@ -33,10 +33,11 @@ body {
   box-shadow: none;
   margin-bottom: 0.5rem;
   background: white;
-  padding: 0.5rem;
+  padding: 1rem;
   align-items: center;
 }
 .accordion-item h3 {
+  font-weight: 600;
   color: #0076dc;
   padding-right: 0.5rem;
   word-break: normal;
@@ -54,13 +55,13 @@ body {
   color: #0076dc;
 }
 .accordion-item p {
-  margin: 1rem 0;
+  margin-top: 1rem;
   padding: 0;
   padding-top: 1rem;
   border-top: 2px solid #c1c2c3;
   border-bottom: 0;
-  color: #585757;
-  transition: max-height 0.2s;
+  color: #585757e6;
+  font-weight: 400;
 }
 
 @media (max-width: 480px) {
@@ -71,10 +72,11 @@ body {
   }
 
   .FAQ-title {
-    text-align: left;
+    justify-content: left;
   }
 }
 .accordion-content {
+  font-family: "Montserrat", sans-serif;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-in-out;
