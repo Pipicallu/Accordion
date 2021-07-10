@@ -110,7 +110,26 @@ Chrome - latest version Edge - latest version Firefox - latest version Safari - 
 Besides ensuring that my code reflected the example shown a lot of the challenge that I faced was around time completion, as this week happened to coincide with my moving date, aswell as full time work. Therefore I had to break up the project over a couple of days. Ensuring that I had enough time In the day to dedicate to getting the most out of this exercise was key and also helped me to look forward to working on it when I came home from a long day's work. I was successfull in doing so by breaking down the responsibilites the first day dedicated to developing the MVP and the second to refining it  with time left over to do the write up. 
 
 # Deployment
-    steps to deploy
+Make sure the following are installed: 
+- VScode or any preferred ide.
+- GIT for cloning and version control.
+
+- Clone this GitHub repository by either clicking the  "**Code**" button with the downward facing arrow to the left of it above in order to download the project as a zip-file (remember to unzip it first), or by entering the following command into the Git CLI terminal:
+    - `git clone https://github.com/Pipicallu/Accordion`
+
+- Navigate to the correct file location after unpacking the files.
+    - `cd <path to folder>
+
+- be sure to have both Sass compiler and Live server extensions active and installed.
+
+- open live server in command palette.
+
+- select go live, your project should be running on http://127.0.0.1:5500/
+
+and thats about it folks!    
 
 
 # Reflections
+I enjoyed this challenge. Not only as it challenged me to replicated a piece of code from just by seeing an image but it was also gave me a glimpse of the type of work I will be doing should I be successfull throughout this process. David told me that at Experian we work as part of a tech team that interacts with other teams accross the company, so I figured good documentation and git commit protocol would be greatly necessary and appreciated, I know that I am always grateful to see it myself. I had a great time throwing myself into this and I hope it shows in the quality of my code. I look forward to your feedback.
+
+-Thomas.

@@ -80,6 +80,7 @@ body{
         border-bottom: 0;
         color: $contentColour;
         font-weight: $contentw;
+        font-size: 0.9rem;
         
     }
 }
@@ -117,6 +118,8 @@ body{
     .accordion-content{
         font-size: $mobileFontSize;
     }
+
+    
 }
 
 
