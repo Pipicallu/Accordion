@@ -44,7 +44,7 @@ body{
     h3{
         font-weight: $subtitleW;
         color: $subtitleColour;
-        padding-right: 0.5rem;
+        padding-right: 1.5rem;
         word-break: normal;
     }
 
@@ -59,8 +59,9 @@ body{
     }
 
     span{
-        
-        float: right;
+        display: inline-flex;
+        position: absolute;
+        right: 4.1rem;
         color: $subtitleColour;
        
        
