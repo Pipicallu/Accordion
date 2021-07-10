@@ -42,7 +42,7 @@ You find that the accordion works as expected accross all formats.
 The mobile breakpoint width is 480px as is industry standard with mobile devices.
 
 ## features to be implemented
-talk about how you think you could improve visuals for user
+given more time and SCOPE It would have been interesting to add hover effects to elements as they are scrolled over. Perhaps a slight box shadow to selected elements inorder to amplify user experience. Plus I'm always tempted to add dark mode. 
 
 # Technologies Used
 ## HTML
