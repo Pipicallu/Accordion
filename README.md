@@ -48,23 +48,58 @@ talk about how you think you could improve visuals for user
 
 ## SCSS/CSS 
 - I used sass compiler in vs code to create mixins and variables and streamline the whole css process. The variables proved helpful when adding mobile break points as well as providing darker colour variation to the text in the content section so as to make it stand out more.
+- Positioning was also used for the icons as I noticed they sit exactly parallel to the end of the border-top for the content of each accordion element.
 
 ## JavaScript
 - The majority of my methodology was explained in the features section but It was a great revision into loops and I feel as though I will continue to challenge myself to little exercises like these in the weeks to come, certainley helps keep my logic skills sharp. I learned a lot from this.
 
 # Testing
+
 ## html 
 - when passed through an HTML validator  there was a context error where the element *h3* not allowed as child of element *button* this was resolved by changing the element to a span and adding the classes *Question* and *icon* to both spans within the button objects.
 
 ## CSS 
+- All the CSS for the site was tested using https://jigsaw.w3.org/css-validator/validator
 - there is an error where none is not a flex-direction value : none but that was necessary as it was used in a mixin in order to add a null value to flex direction.
 
 ## JavaScript
+- All the JavaScript for the site was tested using https://jshint.com/
 - A few warnings around arrow functions and const only being used in es6 and to use mozilla extensions in -moz-.
 - there was one missing semi-colon that was corrected.
 
+## Responsiveness
+
+I used Am I Responsive and Responsinator to ensure that my app worked on multiple devices. The latter was expecially helpful when wanting to check out horizontal orientations on mobile devices.
+
+As well as chrome developer tools, which has the provision to test on:
+
+- Samsung Galaxy - Responsive
+
+- Pixel 2 - Responsive
+
+- Pixel 2 XL - Responsive
+
+- iPhone 5s/Se/6/7/8/X - Responsive
+
+- iPad 9.7" - Responsive
+
+- iPad Pro - Responsive
+
+- Surface Duo - Responsive
+
+- Galaxy Fold - Responsive
+
+- I also had a friend open it up on the latest 12 pro and 12 pro max iPhones.
+
+## Compatibility
+
+To ensure a broad range of users can successfully use this site, I tested it across the 6 major browsers in both desktop and mobile configuration.
+
+Chrome - latest version Edge - latest version Firefox - latest version Safari - latest version Opera - latest version
+
 
 # Challenges
+    
     talk about the different approaches in JS.
     how initially you were relying on the transition in css but it was causing a delayed animation.
     time constraints because of moving

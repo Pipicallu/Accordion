@@ -51,7 +51,8 @@ body{
     }
 
     button{
-        
+        display: inline-flex;
+        align-items: center;
         width: 100%;
         text-align: left;
         border: none;
@@ -61,7 +62,7 @@ body{
     }
 
     .icon{
-        display: inline-flex;
+        display: inline;
         position: absolute;
         float: right;
         right: 4.1rem;
@@ -108,7 +109,8 @@ body{
         justify-content: left;
     }
 
-    question{
+    .question{
+        
         font-size: $mobileFontSize;
     }
 
