@@ -87,11 +87,21 @@ body{
         margin: 0;
         border: 0;
         border-top: 2px solid $borderColour;
+        border-radius: 0;
+        
         
     }
 
+    .accordion-object{
+        border-bottom: 2px solid $borderColour;
+        border-radius: 0;
+        margin: 1rem 3rem;
+    }
+
     .FAQ-title{
-        font-size: 1.6rem;
+        padding: 1rem;
+        margin: 1rem 3rem;
+        font-size: 1.5rem;
         justify-content: left;
     }
 
