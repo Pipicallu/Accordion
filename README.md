@@ -39,6 +39,8 @@ Getting the accordion functionality to be as smooth and flowing as the example s
 
 You find that the accordion works as expected accross all formats.
 
+The mobile breakpoint width is 480px as is industry standard with mobile devices.
+
 ## features to be implemented
 talk about how you think you could improve visuals for user
 
@@ -98,11 +100,14 @@ To ensure a broad range of users can successfully use this site, I tested it acr
 Chrome - latest version Edge - latest version Firefox - latest version Safari - latest version Opera - latest version
 
 
-# Challenges
-    
-    talk about the different approaches in JS.
-    how initially you were relying on the transition in css but it was causing a delayed animation.
-    time constraints because of moving
+# Personal Challenges
+
+- I have already spoken in length about my process inorder to get the right functionality from the transition.
+
+- I also had a little trouble with the aligning of both my question and icon elements but that was soon resolved with the use of display: inline-flex;  and align-items: center; property.
+
+
+Besides ensuring that my code reflected the example shown a lot of the challenge that I faced was around time completion, as this week happened to coincide with my moving date, aswell as full time work. Therefore I had to break up the project over a couple of days. Ensuring that I had enough time In the day to dedicate to getting the most out of this exercise was key and also helped me to look forward to working on it when I came home from a long day's work. I was successfull in doing so by breaking down the responsibilites the first day dedicated to developing the MVP and the second to refining it  with time left over to do the write up. 
 
 # Deployment
     steps to deploy
