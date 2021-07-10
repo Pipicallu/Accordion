@@ -1,5 +1,5 @@
 # Accordion
-Welcome one and all to my accordion. With this exercise I took it upon myself to create something as thorough and as close to the original presented as I possibly could, in both form and function. A process that I found both a little frustrating (which is a great motivator for me) and thoroughly enjoyable. I have also put together this little write up where I will talk about my methodology aswell as the technologies and my thought process whilst navigating the obstacles in this fun challenge.
+Welcome one and all to my accordion. With this exercise I took it upon myself to create something as thorough and as close to the original presented as I possibly could, in both form and function. A process that I found both a little frustrating (which is a great motivator for me) and thoroughly enjoyable. I have also put together this little write up where I will talk about my methodology, aswell as the technologies and my thought process whilst navigating the obstacles in this fun challenge.
 
 # UX
 
@@ -29,7 +29,7 @@ I used google fonts to then judge the font weight and applied their CDN link to 
 
 ## Icons 
 
-Although I identified that Css entities were used for the plus and minus symbols, as a personal preference I decided to use font awesomes range of svgs as I felt that their rounded aesthetic went better with the accordions slightly rounded borders.
+Although I identified that CSS entities were used for the plus and minus symbols, as a personal preference I decided to use font awesomes range of svgs as I felt that their rounded aesthetic went better with the accordions slightly rounded borders.
 
 - Plus unicode = '\f067'
 - Minus unicode = '\f068'
@@ -118,7 +118,7 @@ Make sure the following are installed:
     - `git clone https://github.com/Pipicallu/Accordion`
 
 - Navigate to the correct file location after unpacking the files.
-    - `cd <path to folder>
+    - `cd <path to folder>`
 
 - be sure to have both Sass compiler and Live server extensions active and installed.
 
@@ -130,6 +130,6 @@ and thats about it folks!
 
 
 # Reflections
-I enjoyed this challenge. Not only as it challenged me to replicated a piece of code from just by seeing an image but it was also gave me a glimpse of the type of work I will be doing should I be successfull throughout this process. David told me that at Experian we work as part of a tech team that interacts with other teams accross the company, so I figured good documentation and git commit protocol would be greatly necessary and appreciated, I know that I am always grateful to see it myself. I had a great time throwing myself into this and I hope it shows in the quality of my code. I look forward to your feedback.
+I enjoyed this challenge. Not only as it challenged me to replicate a piece of code from an image but it was also gave me a glimpse of the type of work I will be doing should I be successfull throughout this process. David told me that at Experian we work as part of a tech team that interacts with other teams accross the company, so I figured good documentation and git commit protocol would be greatly necessary and appreciated, I know that I am always grateful to see it myself. I had a great time throwing myself into this and I hope it shows in the quality of my code. I look forward to your feedback.
 
 -Thomas.
