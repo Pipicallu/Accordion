@@ -23,21 +23,39 @@ Welcome one and all to my accordion. With this exercise I took it upon myself to
 ## Fonts
 Finding the correct font to match the example given was one of the most fun parts of this challenge. I really revelled in the minutiae of looking through google fonts and comparing the tail ends of *a* or the curve of the letter *e* until I found the Heebo and Monsterrat pairing. The former was used for the title and h3 elements with the latter being reserved for content. I knew instantly that I was dealing with a font in the 'Sans-serif' family so that helped rule out a lot of unnecessary options. 
 I used google fonts to then judge the font weight and applied their CDN link to my index page.
+
+## Colour Palette:
+![colour palette](/media/Capture.PNG)
+
+## Icons 
+
+Although I identified that Css entities were used for the plus and minus symbols, as a personal preference I decided to use font awesomes range of svgs as I felt that their rounded aesthetic went better with the accordions slightly rounded borders.
+
+- Plus unicode = '\f067'
+- Minus unicode = '\f068'
     
 # Features
-accordion full functionality.
+Getting the accordion functionality to be as smooth and flowing as the example shown was certainly a challenge and something I knew I needed to dedicate the most time to. You may find that in an earlier commit of the app.js file you will see that I was using two individual forEach loops, one to add the class and one to check for the class added. This coupled with the max-height transition created a delay between opening and closing elements, which looked super clunky and unappealing. I was able to over come this by employing one for each loop and two logic statements one which first checks for the opened-accordion class and closes it and then proceeds to toggle that class for the element that is clicked. I am happy to report that the transitions are as smooth as they could be. 
+
+You find that the accordion works as expected accross all formats.
 
 ## features to be implemented
 talk about how you think you could improve visuals for user
 
 # Technologies Used
-    HTML -
-    CSS - talk about scss and how you used position absolute to match the icon with the line exactly.
-    JavaScript - talk about forEach loop
+   ## HTML
+    I thought of the accordion as a form and I based the html off of bootstraps own examples, I knew I would need to interact with the content as the nextElementSibling so I laid out the html in that fashion.
+
+    SCSS/CSS - I used sass compiler in vs code to create mixins and variables and streamline the whole css process. The variables proved helpful when adding mobile break points as well as providing darker colour variation to the text in the content section so as to make it stand out more.
+
+    JavaScript - The majority of my methodology was explained in the features section but It was a great revision into loops and I feel as though I will continue to challenge myself to little exercises like these in the weeks to come, certainley helps keep my logic skills sharp. I learned a lot from this.
 
 # Testing
-    test and validate code
-    responsiveness and devices
+    ## html - when passed through an HTML validator  there was a context error where the element *h3* not allowed as child of element *button* this was resolved by changing the element to a span and adding the classes *Question* and *icon* to both spans within the button objects.
+
+    ##CSS - there is an error where none is not a flex-direction value : none but that was necessary as it was used in a mixin in order to add a null value to flex direction.
+
+
 # Challenges
     talk about the different approaches in JS.
     how initially you were relying on the transition in css but it was causing a delayed animation.

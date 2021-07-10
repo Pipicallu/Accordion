@@ -41,10 +41,12 @@ body{
     padding: 1rem;
     
      
-    h3{
+    .question {
+        font-size: .9rem;
+        display: inline-flex;
         font-weight: $subtitleW;
         color: $subtitleColour;
-        padding-right: 1.5rem;
+        padding-right: 2.5rem;
         word-break: normal;
     }
 
@@ -58,9 +60,10 @@ body{
         color: $subtitleColour;
     }
 
-    span{
+    .icon{
         display: inline-flex;
         position: absolute;
+        float: right;
         right: 4.1rem;
         color: $subtitleColour;
        
@@ -105,7 +108,7 @@ body{
         justify-content: left;
     }
 
-    h3{
+    question{
         font-size: $mobileFontSize;
     }
 

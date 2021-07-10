@@ -15,7 +15,6 @@ body {
   display: flex;
   flex-direction: none;
   justify-content: center;
-  align-items: left;
   color: #1d4f91;
   margin: 3rem;
 }
@@ -24,7 +23,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
   margin: 3rem;
 }
 
@@ -36,10 +34,12 @@ body {
   background: white;
   padding: 1rem;
 }
-.accordion-item h3 {
+.accordion-item .question {
+  font-size: 0.9rem;
+  display: inline-flex;
   font-weight: 600;
   color: #0076dc;
-  padding-right: 1.5rem;
+  padding-right: 2.5rem;
   word-break: normal;
 }
 .accordion-item button {
@@ -50,9 +50,10 @@ body {
   cursor: pointer;
   color: #0076dc;
 }
-.accordion-item span {
+.accordion-item .icon {
   display: inline-flex;
   position: absolute;
+  float: right;
   right: 4.1rem;
   color: #0076dc;
 }
@@ -87,7 +88,7 @@ body {
     justify-content: left;
   }
 
-  h3 {
+  question {
     font-size: 0.9rem;
   }
 

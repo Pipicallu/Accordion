@@ -11,7 +11,7 @@ questions.forEach((question) => {
                 openedAccordion.classList.toggle("opened-accordion");
                 openedAccordion.nextElementSibling.style.maxHeight = 0;
             }
-            
+
             question.classList.toggle("opened-accordion");
             const accordionContent = question.nextElementSibling;
             if (question.classList.contains("opened-accordion")){
@@ -19,6 +19,6 @@ questions.forEach((question) => {
         }else{
             accordionContent.style.maxHeight = 0; 
         }
-    })
+    });
     
 });
