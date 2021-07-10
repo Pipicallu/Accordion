@@ -1,5 +1,5 @@
 # [Accordion](https://pipicallu.github.io/Accordion/)
-Welcome one] and all to my accordion. With this exercise I took it upon myself to create something as thorough and as close to the original presented as I possibly could, in both form and function. A process that I found both a little frustrating (which is a great motivator for me) and thoroughly enjoyable. I have also put together this little write up where I will talk about my methodology, aswell as the technologies and my thought process whilst navigating the obstacles in this fun challenge.
+Welcome one and all to my accordion. With this exercise I took it upon myself to create something as thorough and as close to the original presented as I possibly could, in both form and function. A process that I found both a little frustrating (which is a great motivator for me) and thoroughly enjoyable. I have also put together this little write up where I will talk about my methodology, aswell as the technologies and my thought process whilst navigating the obstacles in this fun challenge.
 
 # UX
 
